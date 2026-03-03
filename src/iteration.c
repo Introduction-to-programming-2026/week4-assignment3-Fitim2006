@@ -30,14 +30,12 @@ int main(void)
 {
     int n;
 
-    // Ask for a positive integer
     do
     {
         n = get_int("Input: ");
     }
     while (n < 1);
 
-    // Print half-pyramid
     for (int i = 1; i <= n; i++)
     {
         for (int j = 0; j < i; j++)

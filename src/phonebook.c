@@ -13,7 +13,6 @@ int main(void)
 {
     Person people[5];
 
-    // Fill the phonebook
     people[0].name = "Fitim";
     people[0].phone = "111-1111";
 
